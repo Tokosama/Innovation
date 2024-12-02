@@ -1,12 +1,12 @@
 import "./App.css";
 import Home from "./pages/home";
-function App() {
+import Header from './components/Header/Header';
+const App: React.FC = () => {
   return (
-    <>
-      <Home />
-     
-    </>
+    <div className="App">
+      <Header />
+    </div>
   );
-}
+};
 
 export default App;
