@@ -4,8 +4,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-main">
+    <footer className="footer ">
+      <div className="footer-main mx-auto max-w-7xl  mt-14 pb-11">
         <div className="footer-section text-center">
           <h3 className="footer-heading">About</h3>
           <p className="footer-text">
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-bottom">
+      <div className="footer-bottom py-11 mx-auto max-w-7xl ">
         <div className="copyright">
           <p>&copy;Copyright © 2024 Home Decor | Powered by Home Decor</p>
         </div>
