@@ -7,7 +7,7 @@ function SectionTags() {
 
   return (
     <> 
-        <div className="px-6 border-4 rounded-md pt-6 mt-9 mb-9">
+        <div className="px-6 border-4 rounded-md pt-6 mt-9 pb-11 ">
             <div className="text-2xl font-bold mb-9 text-left ">Tags</div>
 
             <div className=" flex flex-wrap gap-2">
