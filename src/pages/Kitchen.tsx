@@ -1,19 +1,17 @@
 import Body from "../components/body/body";
 import Footer from "../components/Footer/Footer";
 import Header, { headInt } from "../components/header/Header";
-import { EIpropos } from "../components/body/presentation/homecard";
+import {  EIpropos } from "../components/body/presentation/homecard";
 
 
 
-export default function Home() {
+export default function Kitchen() {
   const headTab: headInt = {
-    headTitre: "Coming Home Never Felt So Good!",
+    headTitre: "Kitchen",
     headContent:
-      "Quam a diamlorem explicabo quos fugit, ut aliquam modi.",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.",
     headImg: "",
   };
-
-
   const Tab: EIpropos[] = [
     {
       titre: "Consectetuer vehicula ebHome",

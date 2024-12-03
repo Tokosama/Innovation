@@ -24,7 +24,6 @@
   }
   
   .footer-text {
-    font-size: ;
     line-height: 1.6;
     opacity: 0.8;
     text-align: center;
@@ -34,6 +33,7 @@
   
   .social-icons {
     display: flex;
+    border:0px;
     gap: 1rem;
     justify-content: center;
   }
@@ -42,7 +42,6 @@
     background-color: white;
     color: black;
     padding: 0.5rem;
-    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +51,6 @@
   .social-icon:hover {
     background-color: black;
     color: white;
-    border: 1px solid white;
     transform: translateY(-2px);
   }
   
