@@ -98,7 +98,7 @@
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -107,8 +107,9 @@
     align-items: center;
     padding: 16px 35px;
   }
-  
-  .header-button:hover {
-    background-color: #FF0E47;
+  .header-button:hover{
+    background-color: #e7093d;
   }
+  
+  
   
