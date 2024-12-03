@@ -1,3 +1,4 @@
+
 import "./App.css";
 import Home from "./pages/home";
 const App: React.FC = () => {
@@ -8,4 +9,6 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+
+
+export default App

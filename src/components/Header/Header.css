@@ -1,13 +1,12 @@
 
 .header {
     position: relative;
-    width: 100vw; 
+    width: 100%; 
     height: 85vh; 
     background-image: url('exe.jpeg');
     background-size: cover; 
     background-position-y: center; 
-    display: flex;
-    flex-direction: column;
+   
     
     color: white; 
   }
@@ -34,14 +33,15 @@
     align-items: center;
     width: 100%;
     z-index: 2;
-    justify-content: center; 
     align-items: center; 
+    padding: 16px;
     
   }
   
   .navbar-logo img {
-    width: 150px; 
-    margin-right: 350px;
+    width: 180px; 
+    height: 37px;
+    
   }
   
   .navbar-links {
@@ -54,9 +54,10 @@
   .navbar-links li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 17px;
     font-weight: bold;
     transition: color 0.3s;
+    margin: 0px 11px;
   }
   
   .navbar-links li a:hover {
@@ -73,7 +74,8 @@
   }
   
   .header-content h1 {
-    font-size: 65px;
+    font-size: 80px;
+    font-weight: bold;
     
     text-align: center; 
     justify-content: center;
@@ -92,7 +94,7 @@
   }
   
   .header-button {
-    background-color: #ff0055;
+    background-color: #FF0E47;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -103,9 +105,10 @@
     text-align: center; 
     justify-content: center; 
     align-items: center;
+    padding: 16px 35px;
   }
   
   .header-button:hover {
-    background-color: #e6004c;
+    background-color: #FF0E47;
   }
   

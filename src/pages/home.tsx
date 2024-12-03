@@ -1,13 +1,13 @@
-import Header from "../components/Header/Header";
-
+import Body from "../components/body/body";
+import Header from "../components/header/Header";
 
 export default function Home() {
-
   return (
     <>
-    <Header/>
+      <div className="font-body">
+        <Header />
+        <Body />
+      </div>
     </>
-  )
+  );
 }
-
-
