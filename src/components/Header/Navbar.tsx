@@ -1,12 +1,5 @@
 import { Link } from "react-router-dom";
 
-export interface headInt {
-  headTitre:string,
-  headContent:string,
-  headImg:string,
-
-
-}
 
 export function Navbar ()  {
   return (
@@ -14,7 +7,7 @@ export function Navbar ()  {
         <nav className="navbar flex justify-between mb-36">
           <div className="navbar-logo h-16">
           <Link to="/"><img
-              src="ex.png"
+              src="innovlogo.png"
               alt="Logo"
             /></Link>
 

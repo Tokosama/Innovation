@@ -5,12 +5,17 @@ import { EIpropos } from "../components/body/presentation/homecard";
 
 
 
+
+
+
+
 export default function Home() {
   const headTab: headInt = {
     headTitre: "Coming Home Never Felt So Good!",
     headContent:
       "Quam a diamlorem explicabo quos fugit, ut aliquam modi.",
-    headImg: "",
+    headImg: "images/homebg.jpeg",
+    size:"85vh",
   };
 
 
@@ -88,7 +93,8 @@ export default function Home() {
         <Header
           headTitre={headTab.headTitre}
           headContent={headTab.headContent}
-          headImg=""
+          headImg={headTab.headImg}
+          size={headTab.size}
         />
         <Body tab={Tab} />
         <Footer />

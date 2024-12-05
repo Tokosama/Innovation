@@ -10,7 +10,8 @@ export default function Kitchen() {
     headTitre: "Kitchen",
     headContent:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.",
-    headImg: "",
+    headImg: "images/kitchenbg.jpg",
+    size:"70vh",
   };
   const Tab: EIpropos[] = [
     {
@@ -86,7 +87,8 @@ export default function Kitchen() {
         <Header
           headTitre={headTab.headTitre}
           headContent={headTab.headContent}
-          headImg=""
+          headImg={headTab.headImg}
+          size={headTab.size}
         />
         <Body tab={Tab} />
         <Footer />
