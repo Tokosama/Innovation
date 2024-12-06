@@ -5,7 +5,7 @@ function SectionPostTags() {
 
     return (
       <>
-      <div className="pl-16">
+      <div className="md:pl-16">
             
       <div className="mb-11">
   <form action="">

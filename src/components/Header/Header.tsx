@@ -18,25 +18,25 @@ export function Header(props: headInt) {
         location.pathname === "AboutUs" ||
         location.pathname === "Contact"
           ? ""
-          : "bg-fixed"
+          : "bg-fixed bg-center"
       }`}
       style={{
         backgroundImage: `url(${props.headImg})`,
-        height: `${props.size}`,
+        backgroundSize: 'cover',
       }}
     >
-      <div className="mx-auto max-w-7xl py-5 px-2">
+      <div className="mx-auto max-w-7xl py-5 md:px-2 relative pb-24 md:pb-32 ">
         <Navbar />
 
-        <div className="header-content">
-          <h1 className={`${location.pathname === "/AboutUs" ? "text-[20px]" : "text-[80px]"} mb-5`}>{props.headTitre}</h1>
+        <div className="header-content  mt-8 md:mt-12 ">
+          <h1 className={`${location.pathname === "/AboutUs" ? "text-[20px]" : "text-[30px] md:text-[80px]"} mb-5`}>{props.headTitre}</h1>
           <p
-            className={`${location.pathname === "/" ? "text-lg" : location.pathname === "/AboutUs" ? "text-[80px] font-bold" : "text-base" }`}
+            className={`${location.pathname === "/" ? "text-lg" : location.pathname === "/AboutUs" ? "md:text-[80px] font-bold" : "text-base" }`}
           >
             {props.headContent}
           </p>
           {location.pathname === "/" ? (
-            <button className="header-button">FIND YOUR STYLE</button>
+            <button className="header-button ">FIND YOUR STYLE</button>
           ) : (
             <div>              <Link to={"/"}>Home</Link> » {props.headTitre}
             </div>

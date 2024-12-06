@@ -10,7 +10,7 @@ export default function Outdoors() {
     headTitre: "Outdoors",
     headContent:" ",
     headImg: "images/outdoors01.jpg",
-    size:"70vh",
+    size:"",
   };
   const Tab: EIpropos[] = [
     {
@@ -19,7 +19,7 @@ export default function Outdoors() {
       img: "images/outdoors01.jpg",
       description:
         "Dolor sit amet consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae erat consequat auctor eu in elit. Class […]",
-      personnalisation: "border-b pb-9 text-left col-span-2",
+      personnalisation: "border-b pb-9 text-left md:col-span-2",
     },
     {
       titre: "Eleifend sodales molestiae deserunt",

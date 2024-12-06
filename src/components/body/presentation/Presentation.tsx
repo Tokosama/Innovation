@@ -14,8 +14,8 @@ export default function Presentation(props: { tab: EIpropos[] }) {
 
   return (
     <>
-      <div className="border-r-2 col-span-2 pr-16">
-        <div className=" grid grid-cols-2 gap-x-12 gap-y-9 ">
+      <div className="border-r-2 col-span-2 px-2 md:pr-16">
+        <div className=" grid md:grid-cols-2 gap-x-12 gap-y-9 ">
           {records.map((item, i: number) => (
             <Homecard
               key={i}

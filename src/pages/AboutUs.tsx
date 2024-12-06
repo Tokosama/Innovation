@@ -9,7 +9,7 @@ export default function AboutUs() {
     headContent:
       "About Us",
     headImg: "images/aboutusbg.jpg",
-    size:"70vh",
+    size:"",
   };
   
   return (
@@ -23,7 +23,7 @@ export default function AboutUs() {
         />
         <div className="">
           <div className="mx-auto max-w-7xl pt-5 pb-11 px-2 my-24">
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid md:grid-cols-2 gap-3">
               <div className="border">
                 <img src="images/aboutusimg.png" alt="" />
               </div>
@@ -45,12 +45,12 @@ export default function AboutUs() {
           </div>
           <div className="bg-[#F5F5F5] ">
 
-           <div className=" mx-auto max-w-7xl py-9 grid grid-cols-5">
-           <img className="mx-auto my-auto" src="images/logo-1.png" alt="" />  
-           <img className="mx-auto my-auto" src="images/logo-2.png" alt="" />   
-           <img className="mx-auto my-auto" src="images/logo-3.png" alt="" />   
-           <img className="mx-auto my-auto" src="images/logo-4.png" alt="" />   
-           <img className="mx-auto my-auto" src="images/logo-2.png" alt="" /> </div>  
+           <div className=" mx-auto max-w-7xl py-9 grid md:grid-cols-5">
+           <img className="mx-auto my-2 md:my-auto" src="images/logo-1.png" alt="" />  
+           <img className="mx-auto my-2 md:my-auto" src="images/logo-2.png" alt="" />   
+           <img className="mx-auto my-2 md:my-auto" src="images/logo-3.png" alt="" />   
+           <img className="mx-auto my-2 md:my-auto" src="images/logo-4.png" alt="" />   
+           <img className="mx-auto my-2 md:my-auto" src="images/logo-2.png" alt="" /> </div>  
 
            
 

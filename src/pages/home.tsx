@@ -15,7 +15,7 @@ export default function Home() {
     headContent:
       "Quam a diamlorem explicabo quos fugit, ut aliquam modi.",
     headImg: "images/homebg.jpeg",
-    size:"85vh",
+    size:"",
   };
 
 
@@ -26,7 +26,7 @@ export default function Home() {
       img: "images/consectetuer.jpg",
       description:
         "Consectetuer vehicula ab? Blandit? Suspendisse feugiat elementum dictum! Minus eum eveniet, praesentium elementum interdum! Sodales, metus, velit voluptatibus voluptas lorem, etiam vulputate? Aenean possimus montes fugiat […]",
-      personnalisation: "col-span-2",
+      personnalisation: "md:col-span-2",
     },
     {
       titre: "Taciti hendrerit dis odit incidunt",
