@@ -11,7 +11,7 @@ export default function LivingRoom() {
     headContent:
       "",
     headImg: "images/taciti.jpg",
-    size:"70vh",
+    size:"",
   };
   const Tab: EIpropos[] = [
     {
@@ -20,7 +20,7 @@ export default function LivingRoom() {
       img: "images/taciti.jpg",
       description:
         "Cillum corrupti accumsan non cumque alias ipsa, platea! Mollis auctor, repellendus sagittis? Corporis dictumst mollis, curae. Eaque, quam per, praesent pretium eu non cumque animi dolorem […]",
-      personnalisation: "border-b pb-9 text-left col-span-2",
+      personnalisation: "border-b pb-9 text-left md:col-span-2",
     },
     {
       titre: "Sunt doloremque blandit inven",
