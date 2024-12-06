@@ -72,7 +72,7 @@ export function Navbar() {
               <Link to="/AboutUs">About Us</Link>
             </li>
             <li>
-              <Link to="#living-room">Living Room</Link>
+              <Link to="/LivingRoom">Living Room</Link>
             </li>
             <li>
               <Link to="/Kitchen">Kitchen</Link>
