@@ -15,7 +15,7 @@ export function Navbar ()  {
           </div>
           <ul className="navbar-links">
             <li>
-              <Link to="">About Us</Link>
+              <Link to="/AboutUs">About Us</Link>
             </li>
             <li>
               <Link to="#living-room">Living Room</Link>

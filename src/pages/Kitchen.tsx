@@ -11,7 +11,7 @@ export default function Kitchen() {
     headContent:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.",
     headImg: "images/kitchenbg.jpg",
-    size:"70vh",
+    size:"60vw",
   };
   const Tab: EIpropos[] = [
     {
