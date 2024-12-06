@@ -10,7 +10,7 @@ export default function LivingRoom() {
     headTitre: "LivingRoom",
     headContent:
       "",
-    headImg: "images/kitchenbg.jpg",
+    headImg: "images/taciti.jpg",
     size:"70vh",
   };
   const Tab: EIpropos[] = [
