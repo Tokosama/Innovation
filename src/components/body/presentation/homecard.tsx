@@ -6,10 +6,10 @@ export interface EIpropos {
   personnalisation: string;
 }
 
-export function Homecard(props: EIpropos) {
+export function Homecard(props: EIpropos ,) {
   return (
     <>
-      <div className={props.personnalisation}>
+      <div className={` border-b pb-9 text-left  ${props.personnalisation}`}>
         <div className="mb-3">
           <h1 className="text-2xl font-bold font ">{props.titre}</h1>
         </div>
