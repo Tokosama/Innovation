@@ -24,7 +24,7 @@ export function Navbar ()  {
               <Link to="/Kitchen">Kitchen</Link>
             </li>
             <li>
-              <Link to="#outdoors">Outdoors</Link>
+              <Link to="/Outdoors">Outdoors</Link>
             </li>
             <li>
               <Link to="#contact">Contact</Link>
