@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Kitchen from "./pages/Kitchen";
 import AboutUs from "./pages/AboutUs";
 import Outdoors from "./pages/Outdoors";
+import Contact from "./pages/Contact";
 const App: React.FC = () => {
   return (
 
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route path="/Kitchen" element={<Kitchen />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Outdoors" element={<Outdoors />} />
+        <Route path="/Contact" element={<Contact />} />
 
         
       </Routes>

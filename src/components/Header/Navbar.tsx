@@ -27,7 +27,7 @@ export function Navbar ()  {
               <Link to="/Outdoors">Outdoors</Link>
             </li>
             <li>
-              <Link to="#contact">Contact</Link>
+              <Link to="/Contact">Contact</Link>
             </li>
           </ul>
         </nav>
