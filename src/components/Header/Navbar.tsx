@@ -58,10 +58,11 @@ export function Navbar() {
 
           <div
             className="flex flex-1   sm:items-stretch sm:justify-start"
-            onClick={() => console.log("try")}
+            
           >
             <Link to="/">
               <img
+              className="w-36 sm:w-40 "
                 src="innovlogo.png"
                 alt="Logo"
               />

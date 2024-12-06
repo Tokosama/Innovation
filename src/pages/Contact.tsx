@@ -4,7 +4,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 export default function Contact() {
   const headTab: headInt = {
-    headTitre: "GET IN TOUCH!",
+    headTitre: "Get In Touch",
     headContent: " ",
     headImg: "images/aboutusbg.jpg",
     size: "",

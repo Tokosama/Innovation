@@ -24,12 +24,12 @@ export default function AboutUs() {
         <div className="">
           <div className="mx-auto max-w-7xl pt-5 pb-11 px-2 my-24">
             <div className="grid md:grid-cols-2 gap-3">
-              <div className="border">
+              <div className="">
                 <img src="images/aboutusimg.png" alt="" />
               </div>
-              <div className="border flex flex-col justify-between h-full  ">
+              <div className=" flex flex-col justify-between h-full  ">
                 <div className="text-[39px] font-bold">Working Since 1995</div>
-                <div className="w-14 h-1 border-red-600 border-b"></div>
+                <div className="w-20 h-1 border-red-600 border-b"></div>
                 <div className="">Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus dapibus quis eos, risus, vehicula! Egestas qui interdum habitant! Laoreet, placeat maxime Suspendisse.Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus.</div>
                 <div className="text-[25px] font-extrabold  ">
                   <i>Design is a funny word</i>
